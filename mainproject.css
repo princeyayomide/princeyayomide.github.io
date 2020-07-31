@@ -1,0 +1,241 @@
+body{
+	background-color: #f0feff;
+	margin: 0px auto;
+	font-family: roboto;
+}
+.linebreak{
+	color:  gray;
+}
+#head{
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 30px;
+/*	font-family: Arial;
+*/	text-align: center;
+}
+ .nav{
+ 	background-color: #2c3e50;
+ 	border-top: solid;
+ 	border-top-color: white;
+ }
+
+.header{
+	background-color: #2c3e50 ;
+	margin: auto 0px;
+	width: 100%;
+	min-width: 100%;
+}
+.navigation{
+	 width: 100%;
+  	overflow: auto;
+}
+.navigation a {
+	float: left;
+	margin-left: 50px;
+	padding: 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+	width: 15%;
+	text-align: center;
+}
+a:hover{
+/*	background-color: #2c3e50;*/
+	font-size: 16px;
+	cursor: pointer;
+}
+.active{
+	background-color: #b92b27;
+}
+.alert{
+	background-color: white;
+ 	border-bottom: solid;
+ 	border-bottom-color: #2c3e50;
+	color: #b92b27;
+	justify-content: center;
+
+}
+.imgbox{
+	position: relative;
+	top: 50px;
+	background-color: #cbbbbb;
+	border-radius: 20px;
+	width: 50%;
+	height: 400px;
+	margin-left: 27%;
+}
+.img{
+	border-radius:10px;
+	width: 100%;
+	height:400px;
+	display:flex;
+	justify-content: center;
+}
+.img2{
+	border-radius:10px;
+	width: 100%;
+	height:400px;
+	display:flex;
+	justify-content: center;
+}
+
+.p{
+	text-align: justify;
+	margin-right: 25px;
+	margin-left: 20px;
+	color: #000000;
+	line-height: 25px;
+}
+/*services page*/
+.list{
+	line-height: 50px;
+	list-style-type: square;
+	justify-content: center;
+}
+.About{
+	text-align: justify; 
+	line-height: 25px;
+	margin-left: 10px;
+	width: 98%;
+
+}
+#footer{
+	font-size: 13px;
+}
+footer{
+	background-color: #2c3e50;
+	text-align: center;
+	height:60px;
+	color: white;
+	padding: 10px;
+}
+
+/*contact Us*/
+.form_background{
+	background-color: #2c3e50;
+	width: 90%;
+	height: 320px;
+	margin-left:428px;
+	border-radius: 5px;
+    position:relative;
+    top: 70px;
+    min-width: 500px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.Note{
+	float: right;
+	margin-right: 10px;
+	font-size: 13px;
+	font-family: Calibri;
+	position: relative;
+	top: -50px;
+	color: white;
+
+}
+span{
+	color: red;
+}
+.Services{
+
+}
+.contact{
+	margin-left: 10px;
+	color: white;
+}
+.name{
+	color: white;
+	position: relative;
+	top: 30px;
+/*	left: 500px*/
+	font-family: Calibri;
+	margin-left: 20px;
+	padding-left: 5px
+	padding-right: 5px
+}
+.input{
+	color: white;
+	position: relative;
+	top: 7px;
+	left: 100px;
+	height: 30px;
+	border: none;
+	background-color: #acb6e5;
+	border-radius: 4px;
+	width: 330px;
+	margin-left: 3px;
+}
+.span_name{
+	position: relative;
+	top: 10px;
+	left: 100px;
+}
+.Email{
+	color: white;
+	position: relative;
+	top: 22px;
+	font-family: Calibri;
+	margin-left: 23px;
+	text-align: right;
+}
+.emailinput{
+	color: white;
+	position: relative;
+	top: 3px;
+	height: 30px;
+	background-color: #acb6e5;
+	border-radius: 4px;
+	width: 330px;
+	margin-left: 39px;
+	border: none;
+}
+.emailspan{
+	position: relative;
+	top: 8px;
+	left: 5px;
+	/*margin-left: 354px;*/
+}
+.Description{
+	color: white;
+	position: relative;
+	top: 5px;
+	font-family: Calibri;
+	margin-left: 18px;
+	text-align: right;
+}
+.Descriptioninput{
+	color: white;
+	position: relative;
+	top: 42px;
+	height: 80px;
+	background-color: #acb6e5;
+	border-radius: 4px;
+	width: 330px;
+	margin-left: 5px;
+	border: none;
+	text-align: top-left;
+}
+.Descriptionspan{
+	position: relative;
+	top: 15px;
+	left: 4px;
+}
+.submit{
+	position: relative;
+	top: 60px;
+	left: 215px;
+	height: 30px;
+	color: #2c3e50;
+	border:none;
+	font-family: calibri;
+	font-size: 18px;
+	border-radius: 8px;
+	padding-right: 2%;
+	padding-left: 2%;
+	background-color: white;
+	border:none;
+}
+input:visited{
+	color:gray;
+
+} 
